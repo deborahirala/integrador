@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0%;
+}
+
+
+
+/*header*/
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(241deg, rgba(2,0,36,1) 0%, rgba(9,121,37,1) 35%, rgba(10,64,25,0.8687850140056023) 75%);
+    padding: 5px;
+    align-items: center;
+    
+}
+
+header>nav>ul {
+    display: flex;
+    list-style-type: none;
+    color: aliceblue;
+    gap: 1em;
+    margin: 5px;
+}
+header>nav>ul>li>a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all .2s;
+}
+header>nav>ul>li>a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.logo
+{
+    filter: drop-shadow(1px 2px 4px black);
+    margin: 5px;
+}
+
+
+
+/*texto con imagen de fondo*/
+
+
+
+.imagfondo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    background: url(/imag/biblioteca.jpg), rgba(0, 0, 0, 0.671);
+    background-blend-mode: color;
+    height: 60vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 7% 10% 10% 50%;
+    box-sizing: border-box;
+    text-align: end;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+.imagfondo button {
+    display: flex;
+    width: fit-content;
+    background-color: rgb(86, 136, 88);
+    padding: 3px 4px;
+    margin-top: 5px;
+    border: 0ch;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.imagfondo button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* tarjetas */
+
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
+.titulo div:last-child {
+    font-size: 1.5em;
+    font-weight: bold;
+    size: 5px;
+}
+
+
+.imagendt {
+    background-image: url('./imag/jorgito.jpg');
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagendt2 {
+    background-image: url('./imag/isabel2.jpg');
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.imagendt3 {
+background-image: url('./imag/oscar.jpg');
+height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta {
+    width: 20%;
+    border: 2px solid rgba(25, 58, 25, 0.623);
+}
+.sub1 {
+    background-color: rgb(30, 71, 37);
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 3px;
+
+}
+
+.sub2 {
+    background-color: rgb(30, 71, 37);
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.titulo2{
+    display: flex;
+    color: black;
+    justify-content: le;
+
+}
+
+.titulos {
+  margin: 15px;
+}
+
+.contenido {
+
+    font-size: small; 
+    margin: 5px;
+}
+
+.tarjetas {
+    display: flex;
+    align-items: unset;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+/*publicidad*/
+
+
+
+.publicidad {
+    display: flex;
+    height: 50vh;
+    margin: 10px 0px 10px 0px;
+    gap: 2px;
+
+}
+
+.imagenpub {
+    background-image: url('./imag/libreriapub.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.publicidad .text {
+background-color: gray;
+    padding: 10px;
+}
+
+.publicidad .text button {
+    background: transparent;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.parrafo {
+   text-transform: none;
+
+}
+
+.parrafo a {
+    color: black;
+
+}
+
+
+
+/*formulario*/
+
+
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin: 6px 0px 6px 0px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+ 
+form div {
+    display: flex;
+    width: 100%;
+    padding: 4px;
+    gap: 5px;
+}
+form>div>input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 4px 0px 4px 0px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid lightgray;
+}
+form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid lightgray;
+
+}
+
+form button {
+    width: 100%;
+    background-color: rgb(91, 173, 102);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form p {
+    align-self: baseline;
+}
+
+
+
+/*footer*/
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(241deg, rgba(2,0,36,1) 0%, rgba(9,121,37,1) 35%, rgba(10,64,25,0.8687850140056023) 75%);
+    padding: 5px;
+    align-items: center;
+}
+footer>ul {
+    display: flex;
+    list-style-type: none;
+    color: aliceblue;
+    gap: 5em;
+    justify-content: space-around; 
+    width: 10%;
+}
+
+footer>ul>li>a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all .2s;
+   
+}
+
+footer>ul>li>a:hover {
+    color: rgb(175, 175, 175);
+}
