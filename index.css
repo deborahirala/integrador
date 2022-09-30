@@ -52,7 +52,7 @@ header>nav>ul>li>a:hover {
     flex-direction: column;
     color: white;
     width: 100%;
-    background: url(/imag/biblioteca.jpg), rgba(0, 0, 0, 0.671);
+    background: url(imag/biblioteca.jpg), rgba(0, 0, 0, 0.671);
     background-blend-mode: color;
     height: 60vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -102,14 +102,14 @@ header>nav>ul>li>a:hover {
 
 
 .imagendt {
-    background-image: url('./imag/jorgito.jpg');
+    background-image: url('imag/jorgito.jpg');
     height: 250px;
     background-size: cover;
     background-position: center;
 }
 
 .imagendt2 {
-    background-image: url('./imag/isabel2.jpg');
+    background-image: url('imag/isabel2.jpg');
     height: 250px;
     background-size: cover;
     background-position: center;
@@ -117,7 +117,7 @@ header>nav>ul>li>a:hover {
 }
 
 .imagendt3 {
-background-image: url('./imag/oscar.jpg');
+background-image: url('imag/oscar.jpg');
 height: 250px;
     background-size: cover;
     background-position: center;
@@ -185,7 +185,7 @@ height: 250px;
 }
 
 .imagenpub {
-    background-image: url('./imag/libreriapub.jpg');
+    background-image: url('imag/libreriapub.jpg');
     height: 100%;
     width: 100%;
 }
